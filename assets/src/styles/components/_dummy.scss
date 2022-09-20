@@ -1,0 +1,15 @@
+.dummy {
+  background-color: $color-black;
+  &-title {
+    color: $color-white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &-img {
+    max-width: 100px;
+  }
+  &-btn {
+    background-color: $color-blue;
+  }
+}
+

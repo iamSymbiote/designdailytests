@@ -1,0 +1,249 @@
+// .card {
+//     padding: 60px 55px;
+//     width: 498px;
+//     height: 731px;
+
+//     background: #FFFFFF;
+//     box-shadow: 0px 34px 94px -30px #B3C7E3;
+//     border-radius: 30px;
+
+
+//     &-title {
+//         width: 296px;
+//         height: 30px;
+
+//         font-family: 'Times New Roman';
+//         font-weight: 700;
+//         font-size: 24px;
+//         line-height: 30px;
+//     }
+
+//     >.title-info {
+//         font-family: 'Poppins';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 18px;
+//         line-height: 27px;
+//     }
+
+//     >.title-why {
+//         font-weight: 600;
+//         font-size: 16px;
+//         line-height: 24px;
+//     }
+
+// }
+
+// .cancel-plan{
+//     display: flex;
+//     flex-direction: column;  
+// }
+
+
+
+// .cancel-confirm {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     margin-top: 10px;
+//     width: 311px;
+//     height: 72px;
+// }
+
+
+
+
+// .footer {
+//     padding: 0px;
+//     gap: 16px;
+
+//     width: 311px;
+//     height: 96px;
+
+
+//     > .cancel {
+//         width: 311px;
+//         height: 40px;
+//         left: 0px;
+//         top: 0px;
+
+//         background: #E33655;
+//         border-radius: 4px;
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 24px;
+//         color: $color-white;
+//     }
+
+//     >.cancel-nvm {
+//         width: 311px;
+//         height: 40px;
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 24px;
+//         text-align: center;
+//         color: #1E1E4E;
+//         opacity: 0.6;
+//     }
+// }
+
+
+
+
+
+// CANCEL PLAN NEW
+
+//Level 1
+
+.cancel-plan{
+    //clockwise
+    padding: 56px 44px 56px 97px;
+    gap: 29px;
+    
+    position: absolute;
+    width: 496px;
+    height: 713px;
+
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    //Level 2
+    //cancel-plan-header
+    &-header{
+        //Level 3
+        h1{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 16px;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            margin-bottom: 29px;
+            padding: 0 59px 0 0;
+        }
+
+        .ico-close{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            right: 25px;
+            top: 58px;
+        }
+
+    }
+
+
+    &-body {
+
+
+
+    }
+
+    //Level 2
+    //cancel-plan-content
+
+    &-content {
+        display: inline-block;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+
+
+    }
+
+    //cancel-plan-options
+    //.cancel-plan-options ul li label 
+    &-options {
+
+
+        ul{
+            li{
+
+                label{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 24px;
+                    margin-left: 8px;
+                    position: absolute;
+                }
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+                // .checkboxOk{
+                //     width: 20px;
+                //     height: 20px;
+                // }
+
+            }
+        }
+
+
+
+        
+    }
+
+    //cancel-plan-confirm
+
+
+    &-confirm {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 29px;
+
+        .cancel-btn{
+            display: block;
+            width: 100%;
+        }
+
+    }
+
+
+
+    &-footer {
+
+
+    }
+
+    //cancel-plan-footer-btn
+
+        &-btn {
+        width: 311px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+
+        background: #E33655;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-white;
+        }
+
+        &-nvm{
+        width: 311px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #1E1E4E;
+        opacity: 0.6;
+        margin-bottom: 56px;
+
+        }
+
+
+    }
+
+

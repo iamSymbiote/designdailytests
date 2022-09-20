@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/dist/scripts/filtermodal-page.bundle.js"></script>
+    <link rel="stylesheet" href="./assets/dist/styles/filtermodal-page.bundle.css">
+    <script src="https://kit.fontawesome.com/22e113100f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Filter Modal</title>
+</head>
+<body>
+
+    <div class="filtermodal">
+        <div class="filtermodal-top">
+            <h1>Filter</h1>
+            <i class="fa-solid fa-xmark ico-close fa-3x"></i>
+        </div>
+        <div class="filtermodal-search">
+            <h2>Search by keyword</h2>
+            <div class="filtermodal-jobContainer">
+                <i class="fa-solid fa-magnifying-glass fa-3x ico-magnif"></i> <input placeholder="Search jobs" type="search" class="search-input">
+            </div>
+        </div>
+        <div class="filtermodal-view">
+            <h3>View</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" id="filter1" class="checkbox-round"> <label for=""> All job posts</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox-round"> <label for=""> Job posts</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox-round" checked> <label for=""> Archieved job posts</label>
+                </li>
+            </ul>
+
+        </div>
+        <div class="filtermodal-include">
+            <h3>Include</h3>
+            <input type="checkbox" class="checkbox-include" checked> <label for=""> Jobs shared with me</label>
+        </div>
+        <div class="filtermodal-bottom">
+            <button class="save-button">Save changes</button>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,141 @@
+.filtermodal{
+
+    padding: 70px 70px 100px;
+    gap: 126px;
+    position: absolute;
+    width: 484px;
+    height: 887px;
+    background: #322E59;
+    border-radius: 60px;
+
+    //filter-top
+    &-top{
+        h1{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            color: #BCBACF;
+            font-family: 'Merriweather', serif;
+        }
+        .ico-close{
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            right: 25px;
+            top: 80px;
+            color: #BCBACF;
+        }
+    }
+    //filtermodal-search
+    &-search{
+        h2{
+            text-transform: uppercase;
+            color: #BCBACF;
+            margin-top: 40px;
+            font-family: 'Mulish', sans-serif;
+
+        }
+
+
+
+    }
+    //filtermodal-jobContainer
+    &-jobContainer{
+        margin-top: 8px;
+        padding: 16px;
+        gap: 16px;
+        width: 344px;
+        height: 68px;
+        background: #232044;
+        border-radius: 8px;
+
+        .ico-magnif{
+            color: #BCBACF;
+            padding: 3px 16px 0px 0px;
+        }
+
+        input{
+            background: transparent;
+            border: 0;
+            outline: none;
+        }
+        .search-input{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #BCBACF;
+        }
+
+    }
+    //filtermodal-view
+    &-view{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+
+                .checkbox-round{
+                    margin-right: 15px;
+                    width: 38px;
+                    height: 38px;
+                    background-color: #232044;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                    border: 1px solid #ddd;
+                    appearance: none;
+                    -webkit-appearance: none;
+                    outline: none;
+                    cursor: pointer;
+        
+        
+                }
+                .checkbox-round:checked {
+                    background-color: gray;
+        
+                }
+            }
+        }
+
+        h3{
+            text-transform: uppercase;
+            margin-top: 40px;
+            color: #BCBACF;
+        }
+
+    }
+    //filtermodal-include
+    &-include{
+        h3{
+            padding: 40px 0px 16px 0px;
+            text-transform: uppercase;
+            color: #BCBACF;
+        }
+
+        .checkbox-include{
+            padding: 16px 16px 0px 0px;
+            width: 38px;
+            height: 38px;
+            background-color: grayscale;
+
+        }
+
+    }
+    //filtermodal-bottom
+    &-bottom{
+        .save-button{
+            margin-top: 90px;
+            padding: 10px;
+            width: 344px;
+            height: 67px;
+            background: #FFBB56;
+            border-radius: 8px;
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+}
