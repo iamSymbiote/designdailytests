@@ -117,6 +117,7 @@
             font-size: 24px;
             line-height: 30px;
             margin-bottom: 16px;
+            font-family: 'Merriweather';
         }
 
         p{
@@ -125,6 +126,7 @@
             line-height: 27px;
             margin-bottom: 29px;
             padding: 0 59px 0 0;
+            font-family: 'Poppins';
         }
 
         .ico-close{
@@ -148,10 +150,10 @@
     //cancel-plan-content
 
     &-content {
-        display: inline-block;
 
         h2 {
             margin-bottom: 16px;
+            font-family: 'Poppins';
         }
 
 
@@ -160,10 +162,12 @@
     //cancel-plan-options
     //.cancel-plan-options ul li label 
     &-options {
+        margin-bottom: 29px;
 
 
         ul{
             li{
+                margin-bottom: 5px;
 
                 label{
                     font-family: 'Poppins';
@@ -177,10 +181,7 @@
                     width: 20px;
                     height: 20px;
                 }
-                // .checkboxOk{
-                //     width: 20px;
-                //     height: 20px;
-                // }
+
 
             }
         }
@@ -201,8 +202,24 @@
         margin-bottom: 29px;
 
         .cancel-btn{
-            display: block;
-            width: 100%;
+            margin-top: 8px;
+            width: 311px;
+            height: 40px;
+            padding: 8px 233px 8px 8px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            border: 1px solid #1E1E4E;
+            border-radius: 4px;
+
+        }
+        span{
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
         }
 
     }
@@ -217,6 +234,7 @@
     //cancel-plan-footer-btn
 
         &-btn {
+        margin-top: 10px;
         width: 311px;
         height: 40px;
         left: 0px;
@@ -228,9 +246,11 @@
         font-size: 16px;
         line-height: 24px;
         color: $color-white;
+        font-family: 'Poppins';
         }
 
         &-nvm{
+        margin-top: 16px;
         width: 311px;
         height: 40px;
         font-weight: 400;
@@ -240,7 +260,7 @@
         color: #1E1E4E;
         opacity: 0.6;
         margin-bottom: 56px;
-
+        font-family: 'Poppins';
         }
 
 

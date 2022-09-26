@@ -129,25 +129,40 @@
 
 
 .user-card {
-    width: 562px;
+    width: 500px;
     height: 607px;
-    background: white;
     border-radius: 60px;
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
 //.user-card-header
     &-header {
+        position: absolute;
+        left: 0px;
+        margin-left: 30px;
+
         img {
             border-radius: 50%;
             width: 114px;
             height: 114px;
             border: 11px solid #E6EFFA;
+            margin-top: 20px;
         }
 
+
+    }
+
+    //.user-card-rating
+    &-rating {
+        margin-left: 30px;
+        padding-top: 90px;
+
         h2 {
-            position: relative;
-            font-family: Merriweather;
+            font-family: 'Merriweather';
             font-weight: 700;
             font-size: 20px;
             line-height: 33px;
+            margin-top: -50px;
         }
 
         p {
@@ -157,38 +172,53 @@
             font-size: 16px;
             line-height: 24px;
         }
+        
 
-    }
+        .fas-rating {
+            margin-top: 20px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
 
-    //.user-card-rating
-    &-rating {
-        p {}
+        }
 
-        i {}
+        i {
+
+        }
     }
 
     //.user-card-info
     &-info {
+        margin-left: 30px;
+        padding-top: 40px;
         p {
             width: 332px;
-height: 162px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
+            height: 162px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
         }
     }
 
     //.user-card-footer
     &-footer {
+        margin-left: 30px;
+        padding-top: 70px;
 
         button {
+            margin-top: -px;
             width: 111px;
-height: 44px;
-
-border: 2px solid #C4CADF;
-border-radius: 4px;
+            height: 44px;
+            border: 2px solid #C4CADF;
+            border-radius: 4px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
         }
     }
 

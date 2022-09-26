@@ -1,46 +1,178 @@
-.card {
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+
+.metamask {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 42px;
-    gap: 50px;
-    
-    position: absolute;
-    width: 1051px;
+    width: 947px;
     height: 418px;
-    left: 274px;
-    top: 100px;
-    
     background-color: $color-meta;
     border-radius: 29px;
 
 
     .avatar{
-flex:none;
-width: 100px;
-height: 100px;
-border-radius: 39px;
-order: 0;
-flex-grow: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 39px;
 
-}
+    }
+
+    &-title{
+        width: 300px;
+
+        h1{
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            margin-top: 20px;
+        }
+
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 24px;
+        }
+
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+    }
+
+    &-share{
+        margin-left: -18px;
+        margin-top: 20px;
+        ul{
+            @include flexCenter;
+        }
+
+        li{
+            @include flexCenter;
+            width: 45px;
+            height: 45px;
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            border-radius: 13px;
+            margin-left: 13px;
 
 
+            a{
+                // width: 32px;
+                // height: 32px;
+                @include flexCenter;
+                font-size: 7px;
 
-.title{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: space-evenly;
+                // margin-top: 16px;
+                // margin-left: 13px;
+                
+            }
+        }
 
-}
+    }
 
-.card-link{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
+    &-progress{
+        margin-left: 599px;
+        margin-top: -185px;
+        display: flex;
+        flex-direction: column;
 
-}
+        .circle{
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            display: inline-block;
+            border: 2px solid #13143C;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Merriweather';
+            margin-left: 222px;
+            margin-top: -22px;
+            margin-bottom: 8px;
+
+        }
+
+
+        label{
+            padding-right: 10px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+        }
+        // #file{
+        //     font-size: large;
+        //     width: 250px;
+        // }
+
+
+        .rec1 {
+            width: 190px;
+            height: 13px;
+            background: #F17A37;
+            border-radius: 10px 0px 0px 10px;
+        }
+        .rec2{
+            width: 83px;
+            height: 13px;
+            background: #DFDFDF;
+            border-radius: 0px 10px 10px 0px;
+            margin-left: 169px;
+            margin-top: -13px;
+        }
+        
+
+    }
+
+    &-follow{
+        margin-left: 639px;
+        margin-top: 30px;
+
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 24px;
+            line-height: 36px;
+            margin-left: 66px;
+        }
+
+        button{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            width: 215px;
+            height: 55px;
+            background: #13143C;
+            border-radius: 8px;
+            color: $color-white;
+            margin-top: 10px;
+        }
+    }
+
+
 
 
 

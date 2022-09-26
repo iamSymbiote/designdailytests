@@ -76,11 +76,17 @@
 
         ul{
             li{
-                display: flex;
-                align-items: center;
+
+                font-family: 'Mulish';
+                color: #BCBACF;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                margin-bottom: 12px;
+
 
                 .checkbox-round{
-                    margin-right: 15px;
+                    margin-right: 8px;
                     width: 38px;
                     height: 38px;
                     background-color: #232044;
@@ -105,22 +111,47 @@
             text-transform: uppercase;
             margin-top: 40px;
             color: #BCBACF;
+            margin-bottom: 16px;
         }
 
     }
     //filtermodal-include
     &-include{
+
         h3{
             padding: 40px 0px 16px 0px;
             text-transform: uppercase;
             color: #BCBACF;
+            margin-bottom: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
         }
 
         .checkbox-include{
-            padding: 16px 16px 0px 0px;
-            width: 38px;
+            width: 34px;
+            height: 34px;
+
+        }
+
+        span{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 16px;
+            width: 224px;
             height: 38px;
-            background-color: grayscale;
+
+            label{
+                font-family: 'Mulish';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: #BCBACF;
+
+            }
+
 
         }
 
@@ -131,11 +162,14 @@
             margin-top: 90px;
             padding: 10px;
             width: 344px;
-            height: 67px;
+            height: 40px;
             background: #FFBB56;
             border-radius: 8px;
             font-size: 18px;
             line-height: 23px;
+            font-family: 'Mulish';
+            color: black;
+            font-weight: 600;
         }
     }
 }
